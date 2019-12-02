@@ -1,4 +1,5 @@
 class ProductsController < ApplicationController
+
   def new
   end
 
@@ -19,4 +20,10 @@ class ProductsController < ApplicationController
 
   def delete
   end
+
+  private
+
+  def product_params
+  end
+
 end

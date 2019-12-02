@@ -1,4 +1,5 @@
 class TypesController < ApplicationController
+
   def new
   end
 
@@ -22,4 +23,10 @@ class TypesController < ApplicationController
 
   def destroy
   end
+
+  private
+
+  def type_params
+  end
+
 end

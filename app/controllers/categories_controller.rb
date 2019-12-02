@@ -1,4 +1,5 @@
 class CategoriesController < ApplicationController
+
   def new
   end
 
@@ -15,5 +16,10 @@ class CategoriesController < ApplicationController
   end
 
   def delete
+  end
+
+  private
+
+  def category_params
   end
 end

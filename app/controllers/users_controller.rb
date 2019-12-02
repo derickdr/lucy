@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+
   def new
   end
 
@@ -25,4 +26,10 @@ class UsersController < ApplicationController
 
   def delete
   end
+
+  private
+
+  def user_params
+  end
+
 end
